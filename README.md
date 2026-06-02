@@ -1,7 +1,8 @@
 # Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀 
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+Welcome to the **Data Warehouse and Analytics Project** repository!
+🚀 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
+Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
 
@@ -37,11 +38,32 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ---
 
-## 🛡️ License
+## 🏗️ Data Architecture
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+The data architecture for this project follows the **Medallion Architecture**, organizing the data flow from source to consumption through the Data Warehouse (DWH) across **Bronze**, **Silver**, and **Gold** layers.
+
+*(Note: Ensure your image is uploaded to your repository and update the path below if necessary)*
+![DWH Medallion Architecture](docs/Draw of DWH Medallion Arquiteture.png)
+
+
+
+### 🔍 Processing Flow
+
+1. **Source:** Data originates from CRM and ERP systems (Interface: *files in folders*; Object type: *CSV files*).
+2. **DWH - Bronze:** Ingestion of raw data without additional modeling or transformations.
+3. **DWH - Silver:** Application of cleaning, enrichment, and standardization rules, preparing the tables for final modeling.
+4. **DWH - Gold:** Delivery of business-ready data exposed as *Views*, utilizing dimensional modeling (Star Schema) or aggregated tables.
+5. **Consume:** Data from the Gold layer powers Reporting & Analysis, Ad-Hoc SQL Queries, and Machine Learning models.
 
 ---
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE).
+You are free to use, modify, and share this project with proper attribution.
+
+---
+
 
 ## 🌟 About Me
 
