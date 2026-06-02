@@ -69,4 +69,4 @@ You are free to use, modify, and share this project with proper attribution.
 
 Hi there! I'm **Vinícius Barros**. I'm a data professional and passionate Analytics Engineer on a mission to share knowledge and make working with data enjoyable and engaging! 
 
-Connect with me on [LinkedIn](www.linkedin.com/in/vinícius-barros-da-silva-5418b8286) or check out my other projects.
+Connect with me on [LinkedIn](https://www.linkedin.com/in/vinícius-barros-da-silva-5418b8286) or check out my other projects.
