@@ -45,6 +45,9 @@ The data architecture for this project follows the **Medallion Architecture**, o
 ![DWH Medallion Architecture](docs/Draw%20of%20DWH%20Medallion%20Arquiteture.png)
 
 
+---
+
+
 
 ### 🔍 Processing Flow
 
@@ -69,3 +72,41 @@ You are free to use, modify, and share this project with proper attribution.
 Hi there! I'm **Vinícius Barros**. I'm a data professional and passionate Analytics Engineer on a mission to share knowledge and make working with data enjoyable and engaging! 
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/vinícius-barros-da-silva-5418b8286) or check out my other projects.
+
+---
+
+## 📁 Repository Structure
+
+```text
+sql-data-analytics-project/
+│
+├── 📂 datasets/                     # Raw datasets used for the project
+│   ├── datasets
+│   ├── dim_customers.csv
+│   ├── dim_products.csv
+│   └── fact_sales.csv
+│
+├── 📂 docs/                         # Project documentation and architecture
+│   ├── Exploratory and Advanced analysis roadmap
+│   ├── Project Roadmap.pdf
+│   └── Project Roadmap_Baara.png
+│
+├── 📂 scripts/                      # Unified folder for all SQL analysis scripts
+│   ├── Change over time.sql
+│   ├── Cumulative Analysis.sql
+│   ├── Customer_report.sql
+│   ├── Data Segmentation.sql
+│   ├── Data_Base_Exploration.sql
+│   ├── Date Exploration.sql
+│   ├── Dimension Exploration.sql
+│   ├── Magnitude Analysis.sql
+│   ├── Measure Exploration.sql
+│   ├── Part to whole analysis.sql
+│   ├── Performance Analysis.sql
+│   ├── Product_report.sql
+│   ├── Ranking Analysis.sql
+│   └── Scripts
+│
+├── 📄 LICENSE                       # License information for the repository
+└── 📄 README.md                     # Project overview and instructions
+
