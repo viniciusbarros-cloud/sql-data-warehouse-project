@@ -42,7 +42,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 The data architecture for this project follows the **Medallion Architecture**, organizing the data flow from source to consumption through the Data Warehouse (DWH) across **Bronze**, **Silver**, and **Gold** layers.
 
-![DWH Medallion Architecture](docs/Draw%20of%20DWH%20Medallion%20Arquiteture2.jpg)
+![DWH Medallion Architecture](docs/Draw%20of%20DWH%20Medallion%20Arquiteture2.png)
 
 
 ---
